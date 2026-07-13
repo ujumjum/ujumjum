@@ -1,4 +1,4 @@
-### 안녕하세요, JYJ입니다 🙌
+### Hello World! JYJ입니다 🙌
 > **복잡한 요구사항**을 구조화하고, 여러 **기술을 연결해 신뢰할 수 있는 서비스**로 구현하는 Fullstack / Backend Developer  
 
 > 데이터 흐름을 정리하고 팀의 개발 기준을 맞추는 과정에서 즐거움을 느낍니다.
@@ -16,10 +16,10 @@
 
 <br>
 
-## 🚀 Projects
+## 🚀 Main Projects
 | 프로젝트 | 개요 | Role & Solved |
 |---|---|---|
-| 🍱 **[EDM](https://github.com/ujumjum/chatBot)**<br><sub>2024.01 · 7인팀</sub> | 채팅·OCR 기반 식단 입력으로 AI 챗봇과 영양정보를 제공하는 앱 | **Role** OpenAI API 질의 분류, Django REST API, MySQL, React Native<br>**Solved** 사용자 식별자 불일치를 데이터 흐름표로 정리해 시스템 간 기준 통일 |
+| 🍱 **[EDM](https://pine-pansy-b2e.notion.site/ef232424fc8e4bcfab4d005e4a589ae6?v=c1be68ab31894ed4b655c20cb03eeb90)**<br><sub>2024.01 · 7인팀</sub> | 채팅·OCR 기반 식단 입력으로 AI 챗봇과 영양정보를 제공하는 앱 | **Role** OpenAI API 질의 분류, Django REST API, MySQL, React Native<br>**Solved** 사용자 식별자 불일치를 데이터 흐름표로 정리해 시스템 간 기준 통일 |
 | 📸 **[S-Photo](https://github.com/ujumjum/s-photo)**<br><sub>2026.06 · 개인</sub> | React·Firebase 기반 졸업전시 포토부스 서비스 | **Role** 기획, React 개발, Firebase 연동, 배포<br>**Solved** 모바일 이미지 캡처·저장 및 사용성 문제 개선 |
 | 🏠 **[Home Controller](https://github.com/ujumjum/homecontroller)**<br><sub>2023.11–12 · 개인</sub> | Raspberry Pi·Flask 기반 IoT 홈컨트롤러 | **Role** 기획, Flask 서버, 센서·하드웨어 연동, 자동제어<br>**Solved** GPIO 충돌과 서보모터 떨림 해결 |
 | 📅 **[Meandu](https://github.com/ujumjum/meandu_calendar)**<br><sub>2022.11–12 · 2인팀</sub> | Java·SQLite 기반 일정·연락처 CRUD 안드로이드 앱 | **Role** UI/UX, Fragment 화면, SQLite DB 연동<br>**Solved** 화면·DB 구조 설계와 CRUD·예외 처리 구현 |
