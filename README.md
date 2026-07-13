@@ -1,11 +1,10 @@
 ### 안녕하세요, JYJ입니다 🙌
-> **"결과가 그럴듯해 보여도 실제 환경에서 검증하는 걸 좋아하는"** Fullstack / Backend 개발자 지망생입니다.
-> 데이터 흐름을 최적화하고 시스템 인프라를 탄탄하게 설계하는 과정에서 즐거움을 느낍니다.
+> **사용자의 요구를 이해**하고, **데이터와 기술을 연결**해 실제로 쓰이는 서비스를 만드는 Fullstack / Backend 개발자
+> 데이터 흐름을 정리하고 팀의 개발 기준을 맞추는 과정에서 즐거움을 느낍니다.
 
 <br>
 
 ## 🛠 Tech Stack
-
 | 분류 | 기술 스택 |
 | :--- | :--- |
 | **Backend** | <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=Flask&logoColor=white"/> |
@@ -16,18 +15,24 @@
 
 <br>
 
-## 🚀 Main Projects
-
-| 프로젝트 | 기간 / 인원 | 주요 내용 & 담당 역할 | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| 🍱 **[AI 식단관리 앱 (EDM)](https://github.com/ujumjum/chatBot)** | 24.01<br>(7인) | • KT AIVLE 빅프로젝트 식단 관리 서비스<br>• **[담당]** OpenAI API 연동 및 챗봇 파트 기능 개발<br>• **[담당]** 효율적인 데이터 관리를 위한 **DB Schema/ERD 설계 주도** | Django, React Native, OpenAI API |
-| 🛗 **[스마트 엘리베이터 연구](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003076602)** | 23.09~12<br>(3인) | • 객체인식을 활용한 IoT 기반 스마트 엘리베이터 시스템<br>• 사물인터넷융복합논문지 등재 논문<br>• **[담당]** YOLOv5 모델 학습 데이터 라벨링 보완 및 모델 성능 개선 | YOLOv5, RaspberryPi, MQTT |
-| 🏠 **[Home Controller](https://github.com/ujumjum/homecontroller)** | 23.11~12<br>(개인) | • RaspberryPi GPIO 인프라 기반 스마트 홈 컨트롤러 시스템<br>• **[담당]** Flask 기반 웹 백엔드 구축 및 하드웨어 제어 API 설계 | Flask, RaspberryPi, GPIO |
-| 📅 **[Meandu](https://github.com/ujumjum/meandu_calendar)** | 22.11~12<br>(2인) | • 안드로이드 환경의 일정 및 다이어리 관리 모바일 앱<br>• **[담당]** Fragment 기반 UI 컴포넌트 구현 및 SQLite 연동 데이터 관리 | Java, SQLite, Android |
-| 📸 **[S-Photo](https://github.com/ujumjum/s-photo)** | 26.06<br>(개인/팀) | • React 및 Firebase 기반 졸업전시회 전용 포토부스 서비스<br>• **[담당]** 웹 서비스 전반 구현 및 실시간 데이터 처리 파이프라인 구축 | React, Firebase |
+## 🚀 Projects
+| 프로젝트 | 개요 | Role & Solved |
+|---|---|---|
+| 🍱 **[EDM](https://github.com/ujumjum/chatBot)**<br><sub>2024.01 · 7인팀</sub> | 채팅·OCR 기반 식단 입력으로 AI 챗봇과 영양정보를 제공하는 앱 | **Role** OpenAI API 질의 분류, Django REST API, MySQL, React Native<br>**Solved** 사용자 식별자 불일치를 데이터 흐름표로 정리해 시스템 간 기준 통일 |
+| 📸 **[S-Photo](https://github.com/ujumjum/s-photo)**<br><sub>2026.06 · 개인</sub> | React·Firebase 기반 졸업전시 포토부스 서비스 | **Role** 기획, React 개발, Firebase 연동, 배포<br>**Solved** 모바일 이미지 캡처·저장 및 사용성 문제 개선 |
+| 🏠 **[Home Controller](https://github.com/ujumjum/homecontroller)**<br><sub>2023.11–12 · 개인</sub> | Raspberry Pi·Flask 기반 IoT 홈컨트롤러 | **Role** 기획, Flask 서버, 센서·하드웨어 연동, 자동제어<br>**Solved** GPIO 충돌과 서보모터 떨림 해결 |
+| 📅 **[Meandu](https://github.com/ujumjum/meandu_calendar)**<br><sub>2022.11–12 · 2인팀</sub> | Java·SQLite 기반 일정·연락처 CRUD 안드로이드 앱 | **Role** UI/UX, Fragment 화면, SQLite DB 연동<br>**Solved** 화면·DB 구조 설계와 CRUD·예외 처리 구현 |
+| 🛗 **[Smart Elevator](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003076602)**<br><sub>2023.09–12 · 3인팀</sub> | YOLOv5 기반 탑승 상황 인식 및 Raspberry Pi 제어 시스템 (학술지 등재) | **Role** AI 모델링, 시스템 설계, MQTT 통신, 논문 작성<br>**Solved** 조도 변화 오탐지와 MQTT 전송 지연 개선 |
+| 🌊 **바당옵서(해녀 안전 솔루션)**<br><sub>2023.11–12 · 3인팀</sub> | Selenium·Roboflow 기반 이미지 데이터 파이프라인 및 YOLOv5 학습 | **Role** 이미지 수집·가공, 모델 학습 및 성능 검증<br>**Solved** Recall 수치만 믿지 않고 mAP50까지 검증해 과적합 여부 판단 |
 
 <br>
 
 ## 📝 Blog & Contact
 * **Blog:** 기술 학습 기록과 TIL을 정리하고 있습니다 🪵 [uknow-ujum.tistory.com](https://uknow-ujum.tistory.com/)
 * **Email:** juj0927@gmail.com
+
+### 🎯 Interested In
+- Enterprise IT
+- Backend
+- AI Service
+- System Design
